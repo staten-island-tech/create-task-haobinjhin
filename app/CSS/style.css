@@ -1,0 +1,17 @@
+html,
+* {
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
