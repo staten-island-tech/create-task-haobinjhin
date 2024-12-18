@@ -4,6 +4,7 @@ export const loveinterests =[
         affectionlvl: 100,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Always with you",
     },
     {
@@ -11,6 +12,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "The Table of Lost Grace",
     },
     {
@@ -18,6 +20,7 @@ export const loveinterests =[
         affectionlvl: 30,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Siofra River, Mistwood Ruins",
     },
     {
@@ -25,6 +28,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Three Sisters, Caria Manor",
     },
     {
@@ -32,6 +36,7 @@ export const loveinterests =[
         affectionlvl: 10,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Murkwater Cave, Roundtable Hold",
     },
     {
@@ -39,6 +44,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Limgrave, Roundtable Hold",
     },
     {
@@ -46,6 +52,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Roundtable Hold, Deeproot Depths",
     },
     {
@@ -53,6 +60,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Stormveil Castle",
     },
     {
@@ -60,6 +68,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Caelid, Redmane Castle",
     },
     {
@@ -67,6 +76,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Volcano Manor",
     },
     {
@@ -74,6 +84,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Elphael, Brace of the Haligtree",
     },
     {
@@ -81,6 +92,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Femboy",
         maplocation: "Haligtree, in his dream form",
     },
     {
@@ -88,6 +100,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Mohgwyn Palace",
     },
     {
@@ -95,6 +108,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Castle Sol",
     },
     {
@@ -102,6 +116,7 @@ export const loveinterests =[
         affectionlvl: 20,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Roundtable Hold",
     },
     {
@@ -109,6 +124,7 @@ export const loveinterests =[
         affectionlvl: 30,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Roundtable Hold",
     },
     {
@@ -116,6 +132,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Stormveil Castle",
     },
     {
@@ -123,6 +140,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Lake of Liurnia",
     },
     {
@@ -130,6 +148,7 @@ export const loveinterests =[
         affectionlvl: 45,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Roundtable Hold, Altus Plateau",
     },
     {
@@ -137,6 +156,7 @@ export const loveinterests =[
         affectionlvl: 30,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Bestial Sanctum, Caelid",
     },
     {
@@ -144,6 +164,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Stormveil Castle, Roundtable Hold",
     },
     {
@@ -151,6 +172,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Volcano Manor",
     },
     {
@@ -158,6 +180,7 @@ export const loveinterests =[
         affectionlvl: 20,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Liurnia of the Lakes",
     },
     {
@@ -165,6 +188,7 @@ export const loveinterests =[
         affectionlvl: 10,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Roundtable Hold",
     },
     {
@@ -172,6 +196,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Leyndell, Royal Capital",
     },
     {
@@ -179,6 +204,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Forbidden Lands",
     },
     {
@@ -186,6 +212,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Royal Capital Sewers",
     },
     {
@@ -193,6 +220,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Subterranean Shunning-Grounds",
     },
     {
@@ -200,6 +228,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Erdtree",
     },
     {
@@ -207,6 +236,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Erdtree",
     },
     {
@@ -214,6 +244,7 @@ export const loveinterests =[
         affectionlvl: 55,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Caelid, Redmane Castle",
     },
     {
@@ -221,6 +252,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Forbidden Lands",
     },
     {
@@ -228,6 +260,7 @@ export const loveinterests =[
         affectionlvl: -50,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Leyndell, Royal Capital",
     },
     {
@@ -235,6 +268,7 @@ export const loveinterests =[
         affectionlvl: 20,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Academy of Raya Lucaria ",
     },
     {
@@ -242,6 +276,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Caria Manor",
     },
     {
@@ -249,6 +284,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Crumbling Farum Azula",
     },
     {
@@ -256,6 +292,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Crumbling Farum Azula",
     },
     {
@@ -263,6 +300,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Mountaintops of The Giants",
     },
     {
@@ -270,6 +308,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Nonbinary",
         maplocation: "Deeproot Depths",
     },
     {
@@ -277,6 +316,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Leyndell, Royal Capital",
     },
     {
@@ -284,6 +324,7 @@ export const loveinterests =[
         affectionlvl: -20,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Limgrave",
     },
     {
@@ -291,6 +332,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Lake of Rot",
     },
     {
@@ -298,6 +340,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Waypoint Ruins",
     },
     {
@@ -305,6 +348,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Weeping Penisula",
     },
     {
@@ -312,6 +356,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Volcano Manor",
     },
     {
@@ -319,6 +364,7 @@ export const loveinterests =[
         affectionlvl: 30,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Roundtable Hold",
     },
     {
@@ -326,6 +372,7 @@ export const loveinterests =[
         affectionlvl: 50,
         img: "",
         route: "",
+        gender: "Female",
         maplocation: "Church of The Plague",
     },
     {
@@ -333,6 +380,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Church of Vows",
     },
     {
@@ -340,6 +388,7 @@ export const loveinterests =[
         affectionlvl: 40,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Limgrave",
     },
     {
@@ -347,6 +396,7 @@ export const loveinterests =[
         affectionlvl: 100,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Deeproot Depths",
     },
     {
@@ -354,6 +404,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "The Malefactor's Evergaol",
     },
     {
@@ -361,6 +412,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Cuckoo's Evergaols",
     },
     {
@@ -368,6 +420,7 @@ export const loveinterests =[
         affectionlvl: 30,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Seluvis's Rise",
     },
     {
@@ -375,6 +428,7 @@ export const loveinterests =[
         affectionlvl: 30,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Church of Elleh",
     },
     {
@@ -382,6 +436,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Roundtable Hold",
     },
     {
@@ -389,6 +444,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Church of Irith",
     },
     {
@@ -396,6 +452,7 @@ export const loveinterests =[
         affectionlvl: -10,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Castle Morne",
     },
     {
@@ -403,6 +460,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Stormveil Castle",
     },
     {
@@ -410,6 +468,7 @@ export const loveinterests =[
         affectionlvl: 0,
         img: "",
         route: "",
+        gender: "Male",
         maplocation: "Kingsrealm Ruins",
     },
 

@@ -2,11 +2,12 @@ import "../CSS/style.css";
 import {loveinterests} from "./items";
 
 const dom = {
-    cardbox: document.querySelector(".cardbox")
+    cardbox: document.querySelector(".cardbox"),
+    card: document.querySelector(".card")
 
 }
 
-
+console.log(loveinterests)
 
 function characterroute(name, img, route, affectionlvl){
     let character = [
@@ -23,14 +24,17 @@ function characterroute(name, img, route, affectionlvl){
 function makecard(character){
     for (let i = 0; i<= character.length - 1; i++){
         dom.cardbox.insertAdjacentHTML("beforeend",
-        `<div class = "card"> 
+        `
+        <button class = "card"> 
         <h1 class = "name">${character[i].name}</h1>
         <h5 class = "affectionlvl"> ${character[i].affectionlvl}</h5>
         <img src="${character[i].img}" alt="${character[i].name}" class = "image">
-        </div>`
+        </button>`
         )
     }
 }
 
-
 makecard(loveinterests)
+
+
+dom.card.addEventListener("click", ()=>console.log("hellow"))
