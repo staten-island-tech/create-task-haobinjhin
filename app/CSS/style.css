@@ -26,3 +26,8 @@ body {
 .title {
     font-size: 70px;
 }
+
+.back{
+    height: 50px;
+    width: 50px;
+}
