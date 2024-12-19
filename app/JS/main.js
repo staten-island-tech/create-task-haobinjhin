@@ -57,6 +57,8 @@ function upadatecard(){
     cards.forEach((card) => {card.addEventListener("click", function(){chosenroute(card)})})
 }
 
+function makeroute(character){ }
+
 
 makecard(loveinterests)
 
