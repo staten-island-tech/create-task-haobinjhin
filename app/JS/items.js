@@ -2,7 +2,7 @@ export const loveinterests =[
     {
         name: "Torrent",
         affectionlvl: 100,
-        img: "",
+        img: "./pics/torrent.png",
         route: "",
         gender: "Male",
         maplocation: "Always with you",
@@ -10,7 +10,7 @@ export const loveinterests =[
     {
         name: "Melina",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/melina.png",
         route: "",
         gender: "Female",
         maplocation: "The Table of Lost Grace",
@@ -18,7 +18,7 @@ export const loveinterests =[
     {
         name: "Blaidd",
         affectionlvl: 30,
-        img: "",
+        img: "./pics/blaidd.png",
         route: "",
         gender: "Male",
         maplocation: "Siofra River, Mistwood Ruins",
@@ -26,7 +26,7 @@ export const loveinterests =[
     {
         name: "Ranni the Witch",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/ranni.png",
         route: "",
         gender: "Female",
         maplocation: "Three Sisters, Caria Manor",
@@ -34,7 +34,7 @@ export const loveinterests =[
     {
         name: "Patches",
         affectionlvl: 10,
-        img: "",
+        img: "./pics/patches.png",
         route: "",
         gender: "Male",
         maplocation: "Murkwater Cave, Roundtable Hold",
@@ -42,7 +42,7 @@ export const loveinterests =[
     {
         name: "Varré",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/varre.png",
         route: "",
         gender: "Male",
         maplocation: "Limgrave, Roundtable Hold",
@@ -50,7 +50,7 @@ export const loveinterests =[
     {
         name: "Fia",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/fia.png",
         route: "",
         gender: "Female",
         maplocation: "Roundtable Hold, Deeproot Depths",
@@ -58,7 +58,7 @@ export const loveinterests =[
     {
         name: "Godrick the Grafted",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/godrick.png",
         route: "",
         gender: "Male",
         maplocation: "Stormveil Castle",
@@ -66,7 +66,7 @@ export const loveinterests =[
     {
         name: "Radahn, Starscourge",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/radahn.png",
         route: "",
         gender: "Male",
         maplocation: "Caelid, Redmane Castle",
@@ -74,7 +74,7 @@ export const loveinterests =[
     {
         name: "Rykard, Lord of Blasphemy",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/rykard.png",
         route: "",
         gender: "Male",
         maplocation: "Volcano Manor",
@@ -82,7 +82,7 @@ export const loveinterests =[
     {
         name: "Malenia, Blade of Miquella",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/malenia.png",
         route: "",
         gender: "Female",
         maplocation: "Elphael, Brace of the Haligtree",
@@ -90,7 +90,7 @@ export const loveinterests =[
     {
         name: "Miquella",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/miquella.png",
         route: "",
         gender: "Femboy",
         maplocation: "Haligtree, in his dream form",
@@ -98,7 +98,7 @@ export const loveinterests =[
     {
         name: "Mohg, Lord of Blood",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/mohg.png",
         route: "",
         gender: "Male",
         maplocation: "Mohgwyn Palace",
@@ -106,7 +106,7 @@ export const loveinterests =[
     {
         name: "Commander Niall",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/niall.png",
         route: "",
         gender: "Male",
         maplocation: "Castle Sol",
@@ -114,7 +114,7 @@ export const loveinterests =[
     {
         name: "Sir Gideon Ofnir",
         affectionlvl: 20,
-        img: "",
+        img: "./pics/gideon.png",
         route: "",
         gender: "Male",
         maplocation: "Roundtable Hold",
@@ -122,7 +122,7 @@ export const loveinterests =[
     {
         name: "Ensha of the Royal Remains",
         affectionlvl: 30,
-        img: "",
+        img: "./pics/ensha.png",
         route: "",
         gender: "Male",
         maplocation: "Roundtable Hold",
@@ -130,7 +130,7 @@ export const loveinterests =[
     {
         name: "Nepheli Loux",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/nepheli.png",
         route: "",
         gender: "Female",
         maplocation: "Stormveil Castle",
@@ -138,7 +138,7 @@ export const loveinterests =[
     {
         name: "Hyetta",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/hyetta.png",
         route: "",
         gender: "Female",
         maplocation: "Lake of Liurnia",
@@ -146,7 +146,7 @@ export const loveinterests =[
     {
         name: "D, Hunter of the Dead",
         affectionlvl: 45,
-        img: "",
+        img: "./pics/d.png",
         route: "",
         gender: "Male",
         maplocation: "Roundtable Hold, Altus Plateau",
@@ -154,7 +154,7 @@ export const loveinterests =[
     {
         name: "Gurranq, Beast Roar",
         affectionlvl: 30,
-        img: "",
+        img: "./pics/gurranq.png",
         route: "",
         gender: "Male",
         maplocation: "Bestial Sanctum, Caelid",
@@ -162,7 +162,7 @@ export const loveinterests =[
     {
         name: "Roderika",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/roderika.png",
         route: "",
         gender: "Female",
         maplocation: "Stormveil Castle, Roundtable Hold",
@@ -170,7 +170,7 @@ export const loveinterests =[
     {
         name: "Tanith",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/tanith.png",
         route: "",
         gender: "Female",
         maplocation: "Volcano Manor",
@@ -178,23 +178,15 @@ export const loveinterests =[
     {
         name: "Blackguard Big Boggart",
         affectionlvl: 20,
-        img: "",
+        img: "./pics/boggart.png",
         route: "",
         gender: "Male",
         maplocation: "Liurnia of the Lakes",
     },
     {
-        name: "Gideon the All-Knowing",
-        affectionlvl: 10,
-        img: "",
-        route: "",
-        gender: "Male",
-        maplocation: "Roundtable Hold",
-    },
-    {
         name: "Hoarah Loux",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/hoarahloux.png",
         route: "",
         gender: "Male",
         maplocation: "Leyndell, Royal Capital",
@@ -202,7 +194,7 @@ export const loveinterests =[
     {
         name: "Giant Godskin Apostle",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/godskinapostle.png",
         route: "",
         gender: "Male",
         maplocation: "Forbidden Lands",
@@ -210,7 +202,7 @@ export const loveinterests =[
     {
         name: "The Three Fingers",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/3fingers.png",
         route: "",
         gender: "Male",
         maplocation: "Royal Capital Sewers",
@@ -218,7 +210,7 @@ export const loveinterests =[
     {
         name: "Shabiri",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/shabiri.png",
         route: "",
         gender: "Male",
         maplocation: "Subterranean Shunning-Grounds",
@@ -226,7 +218,7 @@ export const loveinterests =[
     {
         name: "Elden Beast",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/eldenbeast.png",
         route: "",
         gender: "Male",
         maplocation: "Erdtree",
@@ -234,7 +226,7 @@ export const loveinterests =[
     {
         name: "Radagon of the Golden Order",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/radagon.png",
         route: "",
         gender: "Male",
         maplocation: "Erdtree",
@@ -242,23 +234,23 @@ export const loveinterests =[
     {
         name: "Iron Fist Alexander",
         affectionlvl: 55,
-        img: "",
+        img: "./pics/alex.png",
         route: "",
         gender: "Male",
         maplocation: "Caelid, Redmane Castle",
     },
     {
-        name: "Gloam-Eyed Queen",
+        name: "Queen Marika, The Eternal",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/marika.png",
         route: "",
         gender: "Female",
-        maplocation: "Forbidden Lands",
+        maplocation: "Erdtree",
     },
     {
         name: "Morgott, The Omen King",
         affectionlvl: -50,
-        img: "",
+        img: "./pics/morgott.png",
         route: "",
         gender: "Male",
         maplocation: "Leyndell, Royal Capital",
@@ -266,7 +258,7 @@ export const loveinterests =[
     {
         name: "Rennala, Queen of The Full Moon",
         affectionlvl: 20,
-        img: "",
+        img: "./pics/rennala.png",
         route: "",
         gender: "Female",
         maplocation: "Academy of Raya Lucaria ",
@@ -274,7 +266,7 @@ export const loveinterests =[
     {
         name: "Royal Knight Loretta",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/loretta.png",
         route: "",
         gender: "Female",
         maplocation: "Caria Manor",
@@ -282,7 +274,7 @@ export const loveinterests =[
     {
         name: "Maliketh, The Black Blade",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/maliketh.png",
         route: "",
         gender: "Male",
         maplocation: "Crumbling Farum Azula",
@@ -290,7 +282,7 @@ export const loveinterests =[
     {
         name: "Dragonlord Placidusax",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/placidusax.png",
         route: "",
         gender: "Male",
         maplocation: "Crumbling Farum Azula",
@@ -298,7 +290,7 @@ export const loveinterests =[
     {
         name: "Fire Giant",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/firegiant.png",
         route: "",
         gender: "Male",
         maplocation: "Mountaintops of The Giants",
@@ -306,15 +298,15 @@ export const loveinterests =[
     {
         name: "Lichdragon Fortissax",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/fortissax.png",
         route: "",
-        gender: "Nonbinary",
+        gender: "Non-Binary",
         maplocation: "Deeproot Depths",
     },
     {
         name: "Draconic Tree Sentinel",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/draconitreesentinel.png",
         route: "",
         gender: "Male",
         maplocation: "Leyndell, Royal Capital",
@@ -322,7 +314,7 @@ export const loveinterests =[
     {
         name: "Tree Sentinel",
         affectionlvl: -20,
-        img: "",
+        img: "./pics/treesentinel.png",
         route: "",
         gender: "Male",
         maplocation: "Limgrave",
@@ -330,7 +322,7 @@ export const loveinterests =[
     {
         name: "Astel, Naturalborn of The Void",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/astel.png",
         route: "",
         gender: "Male",
         maplocation: "Lake of Rot",
@@ -338,7 +330,7 @@ export const loveinterests =[
     {
         name: "Sorceress Sellen",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/sellen.png",
         route: "",
         gender: "Female",
         maplocation: "Waypoint Ruins",
@@ -346,7 +338,7 @@ export const loveinterests =[
     {
         name: "Irina",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/irina.png",
         route: "",
         gender: "Female",
         maplocation: "Weeping Penisula",
@@ -354,7 +346,7 @@ export const loveinterests =[
     {
         name: "Rya",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/rya.png",
         route: "",
         gender: "Female",
         maplocation: "Volcano Manor",
@@ -362,7 +354,7 @@ export const loveinterests =[
     {
         name: "Enia",
         affectionlvl: 30,
-        img: "",
+        img: "./pics/enia.png",
         route: "",
         gender: "Female",
         maplocation: "Roundtable Hold",
@@ -370,7 +362,7 @@ export const loveinterests =[
     {
         name: "Millicent",
         affectionlvl: 50,
-        img: "",
+        img: "./pics/millicent.png",
         route: "",
         gender: "Female",
         maplocation: "Church of The Plague",
@@ -378,7 +370,7 @@ export const loveinterests =[
     {
         name: "Miriel, Pastor of Vows",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/miriel.png",
         route: "",
         gender: "Male",
         maplocation: "Church of Vows",
@@ -386,7 +378,7 @@ export const loveinterests =[
     {
         name: "Boc",
         affectionlvl: 40,
-        img: "",
+        img: "./pics/boc.png",
         route: "",
         gender: "Male",
         maplocation: "Limgrave",
@@ -394,7 +386,7 @@ export const loveinterests =[
     {
         name: "Godwyn, Prince of Death",
         affectionlvl: 100,
-        img: "",
+        img: "./pics/godwyn.png",
         route: "",
         gender: "Male",
         maplocation: "Deeproot Depths",
@@ -402,7 +394,7 @@ export const loveinterests =[
     {
         name: "Adan, The Thief Fire",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/adan.png",
         route: "",
         gender: "Male",
         maplocation: "The Malefactor's Evergaol",
@@ -410,7 +402,7 @@ export const loveinterests =[
     {
         name: "Bols, Carian Knight",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/bols.png",
         route: "",
         gender: "Male",
         maplocation: "Cuckoo's Evergaols",
@@ -418,7 +410,7 @@ export const loveinterests =[
     {
         name: "Seluvis",
         affectionlvl: 30,
-        img: "",
+        img: "./pics/seluvis.png",
         route: "",
         gender: "Male",
         maplocation: "Seluvis's Rise",
@@ -426,7 +418,7 @@ export const loveinterests =[
     {
         name: "Merchant Kalé",
         affectionlvl: 30,
-        img: "",
+        img: "./pics/kale.png",
         route: "",
         gender: "Male",
         maplocation: "Church of Elleh",
@@ -434,7 +426,7 @@ export const loveinterests =[
     {
         name: "Smithing Master Hewg",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/hewg.png",
         route: "",
         gender: "Male",
         maplocation: "Roundtable Hold",
@@ -442,7 +434,7 @@ export const loveinterests =[
     {
         name: "Thops",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/thops.png",
         route: "",
         gender: "Male",
         maplocation: "Church of Irith",
@@ -450,7 +442,7 @@ export const loveinterests =[
     {
         name: "Edgar",
         affectionlvl: -10,
-        img: "",
+        img: "./pics/edgar.png",
         route: "",
         gender: "Male",
         maplocation: "Castle Morne",
@@ -458,7 +450,7 @@ export const loveinterests =[
     {
         name: "Rogier",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/rogier.png",
         route: "",
         gender: "Male",
         maplocation: "Stormveil Castle",
@@ -466,7 +458,7 @@ export const loveinterests =[
     {
         name: "War Counselor Iji",
         affectionlvl: 0,
-        img: "",
+        img: "./pics/iji.png",
         route: "",
         gender: "Male",
         maplocation: "Kingsrealm Ruins",

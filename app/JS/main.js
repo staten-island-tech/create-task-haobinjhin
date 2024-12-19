@@ -3,33 +3,17 @@ import {loveinterests} from "./items";
 
 const dom = {
     cardbox: document.querySelector(".cardbox"),
-    goback: document.querySelector(".back")
-
+    goback: document.querySelector("#back"),
+    malebtn: document.querySelector("#male"),
+    femalebtn: document.querySelector("#female"),
+    nonbinarybtn: document.querySelector("#nonbinary"),
 }
 
-/* function characterroute(card){
-    
-    const name = card.querySelector(".name").innerText;
-    const affectionlvl = card.querySelector(".affectionlvl").innerText;
-    const gender = card.querySelector(".gender").innerText;
-    const maplocation = card.querySelector(".maplocation").innerText;
-    const img = card.querySelector(".image").src;
 
-    let character = [
-        {name: name,
-        affectionlvl: affectionlvl,
-        img: img,
-        route: "",
-        gender: gender,
-        maplocation: maplocation,
-        }
-    ]
-
-    return character
-} */
 
 
 function makecard(character){
+    
     for (let i = 0; i<= character.length - 1; i++){
         dom.cardbox.insertAdjacentHTML("beforeend",
         `
@@ -38,16 +22,19 @@ function makecard(character){
         <h5 class = "affectionlvl"> ${character[i].affectionlvl}</h5>
         <h5 class = "gender"> ${character[i].gender}</h5>
         <h5 class = "maplocation"> ${character[i].maplocation}</h5>
-        <img src="${character[i].img}" alt="${character[i].name}" class = "image">
+        <img src="${character[i].img}" alt="${character[i].name}" class = "img">
         </button>`
         )
     }
+
+    upadatecard()
+
 }
 
 
 
-makecard(loveinterests)
-const cards = document.querySelectorAll(".card")
+
+
 
 
 
@@ -61,9 +48,53 @@ function chosenroute(interest){
             
         }
     })
+
+    upadatecard()
+}
+
+function upadatecard(){
+    const cards = document.querySelectorAll(".card")
+    cards.forEach((card) => {card.addEventListener("click", function(){chosenroute(card)})})
 }
 
 
+makecard(loveinterests)
 
 
-cards.forEach((card) => {card.addEventListener("click", function(){chosenroute(card)})})
+
+dom.goback.addEventListener("click", function(){
+    dom.cardbox.innerHTML = " "
+    makecard(loveinterests)})
+
+dom.malebtn.addEventListener("click", function(){
+    dom.cardbox.innerHTML = " "
+    loveinterests.forEach((luv) => {
+        if (luv.gender == "Male"){
+            let characters = []
+            characters.push(luv)
+            makecard(characters)
+        }
+    })
+})
+
+dom.femalebtn.addEventListener("click", function(){
+    dom.cardbox.innerHTML = " "
+    loveinterests.forEach((luv) => {
+        if (luv.gender == "Female"){
+            let characters = []
+            characters.push(luv)
+            makecard(characters)
+        }
+    })
+})
+
+dom.nonbinarybtn.addEventListener("click", function(){
+    dom.cardbox.innerHTML = " "
+    loveinterests.forEach((luv) => {
+        if (luv.gender == "Non-Binary"){
+            let characters = []
+            characters.push(luv)
+            makecard(characters)
+        }
+    })
+})
