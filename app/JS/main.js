@@ -1,5 +1,6 @@
-import "../CSS/style.css";
-import {loveinterests} from "./items";
+import "../style/style.css";
+import {loveinterests} from "../JS/items.js";
+import { datingsimroute } from "../JS/luvinterestroute.js";
 
 const dom = {
     cardbox: document.querySelector(".cardbox"),
@@ -57,7 +58,17 @@ function upadatecard(){
     cards.forEach((card) => {card.addEventListener("click", function(){chosenroute(card)})})
 }
 
-function makeroute(character){ }
+/* function makeroute(character){
+    dom.cardbox.insertAdjacentElement("beforeend", 
+    `<div class="scenerio">
+    <h1>${datingsimroute.torrent.scenerio}</h1>
+    <button>${datingsimroute.torrent.options[0]}</button>
+    <button>${datingsimroute.torrent.options[1]}</button>
+    <button>${datingsimroute.torrent.options[2]}</button>
+    </div>` )
+ } */
+
+
 
 
 makecard(loveinterests)
@@ -100,3 +111,5 @@ dom.nonbinarybtn.addEventListener("click", function(){
         }
     })
 })
+
+console.log(datingsimroute.torrent.scenario)

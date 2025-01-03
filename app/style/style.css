@@ -34,12 +34,12 @@ body {
     font-size: 70px;
 }
 
-.button{
+.button {
     height: 50px;
     width: 100px;
 }
 
-.img{
+.img {
     height: 50%;
     width: auto;
     object-fit: contain;
