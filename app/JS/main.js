@@ -1,4 +1,4 @@
-import "../style/style.css";
+import "../CSS/style.css";
 import {loveinterests} from "../JS/items.js";
 import { datingsimroute } from "../JS/luvinterestroute.js";
 
@@ -25,6 +25,7 @@ function makecard(character){
         <h5 class = "maplocation"> ${character[i].maplocation}</h5>
         <img src="${character[i].img}" alt="${character[i].name}" class = "img">
         </button>`
+        
         )
     }
 
@@ -46,9 +47,8 @@ function chosenroute(interest){
         if (luv.name == character[0]){
             dom.cardbox.innerHTML = " "
             dom.cardbox.insertAdjacentElement("beforeend", interest)
-            
-        }
-    })
+        }}
+)
 
     upadatecard()
 }
@@ -112,4 +112,4 @@ dom.nonbinarybtn.addEventListener("click", function(){
     })
 })
 
-console.log(datingsimroute.torrent.scenario)
+console.log(datingsimroute[1].route.name)
