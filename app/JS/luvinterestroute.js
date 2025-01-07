@@ -1764,7 +1764,7 @@ export const datingsimroute = [
       },
 
       {
-        d: [
+        route: [
           {
             scenario: "You meet a mysterious stranger in the park. What do you do?",
             name: "D, Hunter of the Dead",
@@ -2450,7 +2450,7 @@ export const datingsimroute = [
       },
 
       {
-        threefingers: [
+        route: [
           {
             scenario: "You meet a mysterious stranger in the park. What do you do?",
             name: "The Three Fingers",
@@ -3528,7 +3528,7 @@ export const datingsimroute = [
       },
 
       {
-        firegiant: [
+        route: [
           {
             scenario: "You meet a mysterious stranger in the park. What do you do?",
             name: "Fire Giant",

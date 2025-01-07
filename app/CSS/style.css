@@ -29,6 +29,9 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px black;
+    transition: all 0.15s ease;
+    border-radius: 40px;
+    outline: none;
 }
 
 .title {
@@ -36,8 +39,12 @@ body {
 }
 
 .button {
+    box-shadow: 2px 2px black;
+    transition: all 0.15s ease;
     height: 50px;
     width: 100px;
+    border-radius: 4px;
+    outline: none;
 }
 
 .img {
@@ -48,7 +55,54 @@ body {
 }
 
 
-.card:hover {
+.card:active {
     transform: translate(5px, 5px);
+    box-shadow: none;
+}
+
+#option1 {
+    box-shadow: 2px 2px black;
+    transition: all 0.15s ease;
+    height: 45px;
+    width: 150px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#option1:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+#option2 {
+    box-shadow: 2px 2px black;
+    transition: all 0.15s ease;
+    height: 45px;
+    width: 150px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#option2:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+#option3 {
+    box-shadow: 2px 2px black;
+    transition: all 0.15s ease;
+    height: 45px;
+    width: 150px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#option3:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+button:active {
+    transform: translate(2px, 2px);
     box-shadow: none;
 }

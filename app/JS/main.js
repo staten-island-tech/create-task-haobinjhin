@@ -8,6 +8,9 @@ const dom = {
     malebtn: document.querySelector("#male"),
     femalebtn: document.querySelector("#female"),
     nonbinarybtn: document.querySelector("#nonbinary"),
+    option1btn: document.querySelector('#option1'),
+    option2btn: document.querySelector('#option2'),
+    option3btn: document.querySelector('#option3'),
 }
 
 
@@ -49,6 +52,7 @@ function chosenroute(interest){
             dom.cardbox.insertAdjacentElement("beforeend", interest)
         }}
 )
+    makeroute(character)
 
     upadatecard()
 }
@@ -58,15 +62,20 @@ function upadatecard(){
     cards.forEach((card) => {card.addEventListener("click", function(){chosenroute(card)})})
 }
 
-/* function makeroute(character){
-    dom.cardbox.insertAdjacentElement("beforeend", 
+function makeroute(character){
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
     `<div class="scenerio">
-    <h1>${datingsimroute.torrent.scenerio}</h1>
-    <button>${datingsimroute.torrent.options[0]}</button>
-    <button>${datingsimroute.torrent.options[1]}</button>
-    <button>${datingsimroute.torrent.options[2]}</button>
+    <h1>${datingsimroute[i].route[0].scenario}</h1>
+    <button id = 'option1'>${datingsimroute[i].route[0].options[0]}</button>
+    <button id = 'option2'>${datingsimroute[i].route[0].options[1]}</button>
+    <button id = 'option3'>${datingsimroute[i].route[0].options[2]}</button>
     </div>` )
- } */
+        }
+    }
+ }
 
 
 
@@ -112,4 +121,4 @@ dom.nonbinarybtn.addEventListener("click", function(){
     })
 })
 
-console.log(datingsimroute[1].route.name)
+console.log(datingsimroute.length)
