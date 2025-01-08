@@ -52,7 +52,7 @@ function chosenroute(interest){
             dom.cardbox.insertAdjacentElement("beforeend", interest)
         }}
 )
-    makeroute(character)
+    makeroutescenario1(character)
 
     upadatecard()
 }
@@ -62,13 +62,13 @@ function upadatecard(){
     cards.forEach((card) => {card.addEventListener("click", function(){chosenroute(card)})})
 }
 
-function makeroute(character){
+function makeroutescenario1(character){
 
     for (let i = 0; i< datingsimroute.length; i++){
         if(datingsimroute[i].route[0].name == character){
             dom.cardbox.insertAdjacentHTML("beforeend", 
     `<div class="scenerio">
-    <h1>${datingsimroute[i].route[0].scenario}</h1>
+    <h1 id="character">${datingsimroute[i].route[0].scenario}</h1>
     <button id = 'option1'>${datingsimroute[i].route[0].options[0]}</button>
     <button id = 'option2'>${datingsimroute[i].route[0].options[1]}</button>
     <button id = 'option3'>${datingsimroute[i].route[0].options[2]}</button>
@@ -76,6 +76,31 @@ function makeroute(character){
         }
     }
  }
+
+
+function makerouteopt1scenario2(character){
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].scenario}</h1>
+    <button id = 'option1'>${datingsimroute[i].route[0].opt1scenario2[0].options[0]}</button>
+    <button id = 'option2'>${datingsimroute[i].route[0].opt1scenario2[0].options[1]}</button>
+    <button id = 'option3'>${datingsimroute[i].route[0].opt1scenario2[0].options[2]}</button>
+    </div>` )
+        }
+    }
+}
+
+dom.option1btn.addEventListener("click", function(){
+   scenerio = document.querySelectorAll(".scenerio");
+   character = scenario.querySelector("#character");
+   scenerio.remove();
+   makerouteopt1scenario2(character);
+
+}
+    )
 
 
 
@@ -121,4 +146,6 @@ dom.nonbinarybtn.addEventListener("click", function(){
     })
 })
 
-console.log(datingsimroute.length)
+
+console.log(datingsimroute[1].route[0].opt1scenario2[0].scenario)
+console.log(datingsimroute[1].route[0].opt1scenario2[0].options)
