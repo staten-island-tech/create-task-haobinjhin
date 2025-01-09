@@ -53,6 +53,9 @@ function chosenroute(interest){
         }}
 )
     makeroutescenario1(character)
+    const options = document.querySelectorAll(".option")
+    options.forEach((option) => {console.log(option)})
+    
 
     upadatecard()
 }
@@ -69,9 +72,9 @@ function makeroutescenario1(character){
             dom.cardbox.insertAdjacentHTML("beforeend", 
     `<div class="scenerio">
     <h1 id="character">${datingsimroute[i].route[0].scenario}</h1>
-    <button id = 'option1'>${datingsimroute[i].route[0].options[0]}</button>
-    <button id = 'option2'>${datingsimroute[i].route[0].options[1]}</button>
-    <button id = 'option3'>${datingsimroute[i].route[0].options[2]}</button>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].options[2]}</button>
     </div>` )
         }
     }
@@ -93,14 +96,24 @@ function makerouteopt1scenario2(character){
     }
 }
 
-dom.option1btn.addEventListener("click", function(){
+/* function updateoption(){
+    const options = document.querySelectorAll(".option");
+    options.forEach((option) => {if(option == "option1"){
+        option.addEventListener("click", function(){
+        scenerio = document.querySelectorAll(".scenerio");
+        character = scenario.querySelector("#character");
+        scenerio.remove();
+        makerouteopt1scenario2(character)}
+    )};
+    })} */
+
+
+/* dom.option1btn.addEventListener("click", function(){
    scenerio = document.querySelectorAll(".scenerio");
    character = scenario.querySelector("#character");
    scenerio.remove();
-   makerouteopt1scenario2(character);
-
-}
-    )
+   makerouteopt1scenario2(character);}
+    ) */
 
 
 
@@ -145,7 +158,3 @@ dom.nonbinarybtn.addEventListener("click", function(){
         }
     })
 })
-
-
-console.log(datingsimroute[1].route[0].opt1scenario2[0].scenario)
-console.log(datingsimroute[1].route[0].opt1scenario2[0].options)
