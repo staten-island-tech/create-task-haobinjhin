@@ -463,5 +463,13 @@ export const loveinterests =[
         gender: "Male",
         maplocation: "Kingsrealm Ruins",
     },
+    {
+        name: "Banished Knight",
+        affectionlvl: 0,
+        img: "./pics/banishedknight.png",
+        route: "",
+        gender: "Male",
+        maplocation: "Castle Sol",
+    },
 
 ]

@@ -5682,7 +5682,4 @@ export const datingsimroute = [
         ending2: "You shared a beautiful moment but went separate ways.",
         ending3: "You parted ways without much interaction.",
       },
-
-
-
   ];
