@@ -8,9 +8,7 @@ const dom = {
     malebtn: document.querySelector("#male"),
     femalebtn: document.querySelector("#female"),
     nonbinarybtn: document.querySelector("#nonbinary"),
-    option1btn: document.querySelector('#option1'),
-    option2btn: document.querySelector('#option2'),
-    option3btn: document.querySelector('#option3'),
+
 }
 
 
@@ -39,10 +37,6 @@ function makecard(character){
 
 
 
-
-
-
-
 function chosenroute(interest){
     let character = []
     character.push(interest.querySelector(".name").innerHTML)
@@ -53,12 +47,52 @@ function chosenroute(interest){
         }}
 )
     makeroutescenario1(character)
-    const options = document.querySelectorAll(".option")
-    options.forEach((option) => {console.log(option)})
-    
-
     upadatecard()
 }
+
+function optionmakerscenario1(character){
+    const option1 = document.querySelector('#option1')
+    const option2 = document.querySelector('#option2')
+    const option3 = document.querySelector('#option3')
+
+    option1.addEventListener('click', () => {makerouteopt1scenario2(character)})
+    option2.addEventListener('click', () => {makerouteopt2scenario2(character)})
+    option3.addEventListener('click', () => {makerouteopt3scenario2(character)})
+}
+
+function optionmakeropt1scenario2(character){
+    const option1 = document.querySelector('#option1')
+    const option2 = document.querySelector('#option2')
+    const option3 = document.querySelector('#option3')
+
+    option1.addEventListener('click', () => {makerouteopt1scenario2opt1final(character)})
+    option2.addEventListener('click', () => {makerouteopt1scenario2opt2final(character)})
+    option3.addEventListener('click', () => {makerouteopt1scenario2opt3final(character)})
+
+}
+
+function optionmakeropt2scenario2(character){
+    const option1 = document.querySelector('#option1')
+    const option2 = document.querySelector('#option2')
+    const option3 = document.querySelector('#option3')
+
+    option1.addEventListener('click', () => {makerouteopt2scenario2opt1final(character)})
+    option2.addEventListener('click', () => {makerouteopt2scenario2opt2final(character)})
+    option3.addEventListener('click', () => {makerouteopt2scenario2opt3final(character)})
+
+}
+
+function optionmakeropt3scenario2(character){
+    const option1 = document.querySelector('#option1')
+    const option2 = document.querySelector('#option2')
+    const option3 = document.querySelector('#option3')
+
+    option1.addEventListener('click', () => {makerouteopt3scenario2opt1final(character)})
+    option2.addEventListener('click', () => {makerouteopt3scenario2opt2final(character)})
+    option3.addEventListener('click', () => {makerouteopt3scenario2opt3final(character)})
+
+}
+
 
 function upadatecard(){
     const cards = document.querySelectorAll(".card")
@@ -78,42 +112,274 @@ function makeroutescenario1(character){
     </div>` )
         }
     }
+
+    optionmakerscenario1(character)
  }
 
-
 function makerouteopt1scenario2(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
 
     for (let i = 0; i< datingsimroute.length; i++){
         if(datingsimroute[i].route[0].name == character){
             dom.cardbox.insertAdjacentHTML("beforeend", 
     `<div class="scenerio">
-    <h1 id="character">${datingsimroute[i].route[0].scenario}</h1>
-    <button id = 'option1'>${datingsimroute[i].route[0].opt1scenario2[0].options[0]}</button>
-    <button id = 'option2'>${datingsimroute[i].route[0].opt1scenario2[0].options[1]}</button>
-    <button id = 'option3'>${datingsimroute[i].route[0].opt1scenario2[0].options[2]}</button>
+    <h1 id="character">${datingsimroute[i].route[0].opt1scenario2[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt1scenario2[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt1scenario2[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt1scenario2[0].options[2]}</button>
     </div>` )
         }
     }
+
+    optionmakeropt1scenario2(character)
 }
 
-/* function updateoption(){
-    const options = document.querySelectorAll(".option");
-    options.forEach((option) => {if(option == "option1"){
-        option.addEventListener("click", function(){
-        scenerio = document.querySelectorAll(".scenerio");
-        character = scenario.querySelector("#character");
-        scenerio.remove();
-        makerouteopt1scenario2(character)}
-    )};
-    })} */
 
 
-/* dom.option1btn.addEventListener("click", function(){
-   scenerio = document.querySelectorAll(".scenerio");
-   character = scenario.querySelector("#character");
-   scenerio.remove();
-   makerouteopt1scenario2(character);}
-    ) */
+function makerouteopt2scenario2(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt2scenario2[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt2scenario2[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt2scenario2[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt2scenario2[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+    optionmakeropt2scenario2(character)
+
+
+
+
+}
+
+function makerouteopt3scenario2(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt3scenario2[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt3scenario2[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt3scenario2[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt3scenario2[0].options[2]}</button>
+    </div>` )
+        }
+    }
+    optionmakeropt3scenario2(character)
+
+}
+
+function makerouteopt1scenario2opt1final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt1finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt1finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt1finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt1finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt1scenario2opt2final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt2finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt2finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt2finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt2finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt1scenario2opt3final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt3finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt3finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt3finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt3finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt2scenario2opt1final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt1finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt1finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt1finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt1finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt2scenario2opt2final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt2finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt2finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt2finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt2finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt2scenario2opt3final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt3finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt3finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt3finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt2scenario2[0].opt2scenario2opt3finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt3scenario2opt1final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt1finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt1finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt1finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt1finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt3scenario2opt2final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt2finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt2finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt2finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt2finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+function makerouteopt3scenario2opt3final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt3finalscenario[0].scenario}</h1>
+    <button class = 'option' id = 'option1'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt3finalscenario[0].options[0]}</button>
+    <button class = 'option' id = 'option2'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt3finalscenario[0].options[1]}</button>
+    <button class = 'option' id = 'option3'>${datingsimroute[i].route[0].opt3scenario2[0].opt3scenario2opt3finalscenario[0].options[2]}</button>
+    </div>` )
+        }
+    }
+
+}
+
+
+/* function makerouteopt1scenario2opt1final(character){
+
+    let prevscenario = document.querySelector('.scenerio')
+    prevscenario.remove()
+
+    for (let i = 0; i< datingsimroute.length; i++){
+        if(datingsimroute[i].route[0].name == character){
+            dom.cardbox.insertAdjacentHTML("beforeend", 
+    `<div class="scenerio">
+    <h1 id="character">${datingsimroute[i].route[0].opt1scenario2[0].opt1scenario2opt1finalscenario[0].scenario}</h1>
+    </div>` )
+        }
+    }
+
+} */
+
+
+console.log(datingsimroute[0].opt1scenario2opt1ending)
+
+
+
+
+
+
+
+
 
 
 
